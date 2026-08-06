@@ -1,0 +1,38 @@
+:root[data-theme="emerald"] {
+
+  --color-background: #0D1312;
+  --color-surface: #151D1C;
+  --color-surface-elevated: #1D2725;
+  --color-surface-hover: #263432;
+
+  --color-foreground: #F8FAFC;
+  --color-foreground-muted: #D1FAE5;
+  --color-foreground-subtle: #9CA3AF;
+
+  --color-border: #35524A;
+  --color-border-strong: #4B6B63;
+
+  --color-primary: #34D399;
+  --color-primary-hover: #10B981;
+  --color-primary-active: #059669;
+  --color-primary-content: #022C22;
+
+  --color-secondary: #6EE7B7;
+  --color-secondary-content: #052E2B;
+
+  --color-accent: #38BDF8;
+  --color-accent-content: #082F49;
+
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+  --color-info: #3B82F6;
+
+  /* Shadows */
+  --shadow-color: rgb(0 0 0 / 0.12);
+
+  --shadow-sm: 0 2px 8px var(--shadow-color);
+  --shadow-md: 0 8px 24px var(--shadow-color);
+  --shadow-lg: 0 18px 48px var(--shadow-color);
+
+}

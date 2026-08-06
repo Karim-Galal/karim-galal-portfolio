@@ -1,0 +1,27 @@
+export const navigation = [
+  {
+    id: "home",
+    label: "Home",
+    href: "/",
+  },
+  {
+    id: "about",
+    label: "About",
+    href: "#about",
+  },
+  {
+    id: "projects",
+    label: "Projects",
+    href: "#projects",
+  },
+  {
+    id: "services",
+    label: "Services",
+    href: "#services",
+  },
+  {
+    id: "contact",
+    label: "Contact",
+    href: "#contact",
+  },
+];

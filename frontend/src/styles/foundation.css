@@ -1,0 +1,88 @@
+/*
+|--------------------------------------------------------------------------
+| Foundation Design Tokens
+|--------------------------------------------------------------------------
+|
+| This file defines the shared design tokens used across the application.
+| It contains only theme-agnostic tokens (fonts, radius, borders, and
+| semantic token names). Theme-specific values such as colors and shadows
+| are defined in the individual theme files.
+|
+*/
+
+@theme {
+  /* ==========================================
+    Typography
+  ========================================== */
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* ==========================================
+    Radius
+  ========================================== */
+
+  --radius-xs: 0.375rem; /* 6px */
+  --radius-sm: 0.625rem; /* 10px */
+  --radius-md: 0.875rem; /* 14px */
+  --radius-lg: 1.25rem;  /* 20px */
+  --radius-xl: 1.75rem;  /* 28px */
+  --radius-full: 9999px;
+
+  /* ==========================================
+    Borders
+  ========================================== */
+
+  --border-width: 1px;
+  --border-width-strong: 2px;
+
+  /* ==========================================
+     Shadows
+  ========================================== */
+  --shadow-color:;
+  
+  --shadow-sm:;
+  --shadow-md:;
+  --shadow-lg:;
+
+
+
+
+  /* ==========================================
+    Semantic Color Tokens
+  ========================================== */
+  
+  /* Background */
+  --color-background:;
+  --color-surface:;
+  --color-surface-elevated:;
+  --color-surface-hover:;
+
+  /* Text */
+  --color-foreground:;
+  --color-foreground-muted:;
+  --color-foreground-subtle:;
+
+  /* Borders */
+  --color-border:;
+  --color-border-strong:;
+
+  /* Brand */
+  --color-primary:;
+  --color-primary-hover:;
+  --color-primary-active:;
+  --color-primary-content:;
+
+  --color-secondary:;
+  --color-secondary-content:;
+
+  --color-accent:;
+  --color-accent-content:;
+
+  /* Status */
+  --color-success:;
+  --color-warning:;
+  --color-error:;
+  --color-info:;
+
+
+}

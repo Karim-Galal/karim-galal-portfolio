@@ -1,0 +1,39 @@
+:root[data-theme="ocean"] {
+
+  --color-background: #0B1220;
+  --color-surface: #121B2A;
+  --color-surface-elevated: #182334;
+  --color-surface-hover: #22314A;
+
+  --color-foreground: #F8FAFC;
+  --color-foreground-muted: #CBD5E1;
+  --color-foreground-subtle: #94A3B8;
+
+  --color-border: #314158;
+  --color-border-strong: #4F6A89;
+
+  --color-primary: #38BDF8;
+  --color-primary-hover: #0EA5E9;
+  --color-primary-active: #0284C7;
+  --color-primary-content: #082F49;
+
+  --color-secondary: #7DD3FC;
+  --color-secondary-content: #083344;
+
+  --color-accent: #22C55E;
+  --color-accent-content: #052E16;
+
+  --color-success: #22C55E;
+  --color-warning: #FBBF24;
+  --color-error: #EF4444;
+  --color-info: #3B82F6;
+
+  /* Shadows */
+  --shadow-color: rgb(0 0 0 / 0.12);
+
+  --shadow-sm: 0 2px 8px var(--shadow-color);
+  --shadow-md: 0 8px 24px var(--shadow-color);
+  --shadow-lg: 0 18px 48px var(--shadow-color);
+
+
+}
