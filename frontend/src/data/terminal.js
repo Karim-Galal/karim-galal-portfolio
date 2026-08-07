@@ -1,18 +1,29 @@
+export const TERMINAL_PROMPT = ">";
+
 export const terminalCommands = [
   {
+    id: "whoami",
     command: "whoami",
     output: "Karim Galal",
   },
   {
+    id: "role",
     command: "role",
     output: "Full Stack Laravel & React Developer",
   },
   {
-    command: "location",
-    output: "Egypt",
-  },
-  {
+    id: "stack",
     command: "stack",
-    output: "Laravel • React • MySQL • Tailwind CSS",
+    output: [
+      "Laravel",
+      "React",
+      "MySQL",
+      "Tailwind CSS",
+    ],
+  },
+    {
+    id: "focus",
+    command: "focus",
+    output: "Laravel, React and modern web architecture.",
   },
 ];
