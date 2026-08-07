@@ -2,7 +2,7 @@ import Hero from "@/sections/hero/Hero";
 
 function HomePage() {
   return (
-    <div className="py-20 text-center">
+    <div className="pb-20 text-center">
       <Hero />
     </div>
   );

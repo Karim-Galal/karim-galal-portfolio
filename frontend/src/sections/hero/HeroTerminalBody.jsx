@@ -11,7 +11,7 @@ function HeroTerminalBody() {
   } = useTerminalAnimation();
 
   return (
-    <div className="min-h-60 space-y-6 p-6 font-mono">
+    <div className="min-h-72 space-y-6 p-6 font-mono">
       {/* Completed commands */}
       {history.map((item) => (
         <div key={item.id}>
