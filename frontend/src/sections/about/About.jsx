@@ -1,4 +1,4 @@
-import SectionHeading from "../../shared/components/ui/SectionHeading";
+import SectionHeading from "@/shared/components/section/SectionHeading";
 import AboutIntro from "./AboutIntro";
 import AboutPrinciples from "./AboutPrinciples";
 // import AboutArchitecture from "./AboutArchitecture";

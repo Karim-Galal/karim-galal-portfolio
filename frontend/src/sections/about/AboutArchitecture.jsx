@@ -1,14 +1,17 @@
+import SectionSubtitle from "@/shared/components/section/SectionSubtitle";
+import SectionLabel from "@/shared/components/section/SectionLabel";
+
 function AboutArchitecture() {
   return (
     <div>
       <div className="mb-8">
-        <p className="font-mono text-sm text-primary">
+        <SectionLabel>
           architecture
-        </p>
+        </SectionLabel>
 
-        <h3 className="mt-2 text-2xl font-semibold text-foreground sm:text-3xl">
+        <SectionSubtitle>
           How the pieces connect
-        </h3>
+        </SectionSubtitle>
       </div>
 
       <div className="rounded-xl border border-border bg-surface p-6 sm:p-8">

@@ -59,7 +59,6 @@ function Navbar() {
           </div>
 
           <div
-            ref={menuRef}
             className="flex flex-1 justify-end"
           >
             <NavbarActions
@@ -67,11 +66,13 @@ function Navbar() {
               onToggle={() => setIsOpen((prev) => !prev)}
             />
           </div>
+          <div ref={menuRef}>
+            <MobileMenu
+              isOpen={isOpen}
+              onClose={() => setIsOpen(false)}
+            />
+          </div>
 
-          <MobileMenu
-            isOpen={isOpen}
-            onClose={() => setIsOpen(false)}
-          />
         </nav>
       </Container>
     </header>

@@ -2,7 +2,7 @@ export const navigation = [
   {
     id: "home",
     label: "Home",
-    href: "/",
+    href: "#home",
   },
   {
     id: "about",
@@ -10,14 +10,14 @@ export const navigation = [
     href: "#about",
   },
   {
+    id: "skills",
+    label: "Skills",
+    href: "#skills",
+  },
+  {
     id: "projects",
     label: "Projects",
     href: "#projects",
-  },
-  {
-    id: "services",
-    label: "Services",
-    href: "#services",
   },
   {
     id: "contact",

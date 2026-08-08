@@ -1,5 +1,8 @@
 import { Code2, Layers3, Target, Wrench } from "lucide-react";
 
+import SectionSubtitle from "@/shared/components/section/SectionSubtitle";
+import SectionLabel from "@/shared/components/section/SectionLabel";
+
 const principles = [
   {
     icon: Code2,
@@ -27,13 +30,13 @@ function AboutPrinciples() {
   return (
     <div>
       <div className="mb-8">
-        <p className="font-mono text-sm text-primary">
+        <SectionLabel>
           principles
-        </p>
-
-        <h3 className="mt-2 text-2xl font-semibold text-foreground sm:text-3xl">
+        </SectionLabel>
+        
+        <SectionSubtitle> 
           How I work
-        </h3>
+        </SectionSubtitle>
       </div>
 
       <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">

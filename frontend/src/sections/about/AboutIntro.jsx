@@ -1,11 +1,13 @@
+// import SectionSubtitle from "@/shared/components/section/SectionSubtitle";
+import SectionLabel from "@/shared/components/section/SectionLabel";
+
 function AboutIntro() {
   return (
     <div className="grid gap-8 lg:grid-cols-[1fr_1.4fr] lg:gap-16">
       <div>
-        <p className="font-mono text-sm text-primary">
+        <SectionLabel>
           $ whoami
-        </p>
-
+        </SectionLabel>
         <h3 className="mt-3 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
           A developer who likes understanding the whole system.
         </h3>
