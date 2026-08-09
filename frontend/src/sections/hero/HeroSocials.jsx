@@ -25,7 +25,7 @@ function HeroSocials() {
 
   
   return (
-    <div className="flex items-center justify-center gap-6">
+    <div className="flex items-center justify-center lg:justify-start gap-6">
       {socialLinks.map((social) => {
         const Icon = social.icon;
 

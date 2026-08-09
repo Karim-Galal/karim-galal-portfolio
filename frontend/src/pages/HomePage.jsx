@@ -1,6 +1,7 @@
 import Hero from "@/sections/hero";
 import About from "@/sections/about";
 import Skills from "@/sections/skills";
+import Projects from "@/sections/projects";
 
 function HomePage() {
   return (
@@ -8,6 +9,7 @@ function HomePage() {
       <Hero />
       <About/>
       <Skills/>
+      <Projects/>
     </div>
   );
 }
