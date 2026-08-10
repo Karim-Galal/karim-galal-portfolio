@@ -18,7 +18,7 @@ function ProjectCard({ project }) {
               {project.category}
             </span>
 
-            <h3 className="mt-2 text-xl font-semibold text-foreground sm:text-2xl">
+            <h3 className="mt-2 text-xl text-start  font-semibold text-foreground sm:text-2xl">
               {project.title}
             </h3>
           </div>

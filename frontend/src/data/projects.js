@@ -1,3 +1,5 @@
+const imgRoute = "/projects/";
+
 export const projects = [
   {
     id: "egypt-high-school-results",
@@ -28,7 +30,7 @@ export const projects = [
       "Result calculation",
     ],
 
-    image: "/projects/egypt-high-school-results.webp",
+    image: imgRoute + "egypt-high-school-results.png",
 
     liveDemo: "https://egypt-high-school-results-frontend.vercel.app/",
     github: "https://github.com/Karim-Galal/egypt-high-school-results",
@@ -68,7 +70,7 @@ export const projects = [
       "Form validation",
     ],
 
-    image: "/projects/lara-react-survey.webp",
+    image: "/projects/lara-react-survey.png",
 
     liveDemo: null,
     github: "https://github.com/Karim-Galal/lara_react_survey",
@@ -109,7 +111,7 @@ export const projects = [
       "Responsive UI",
     ],
 
-    image: "/projects/kanban-task-manager.webp",
+    image: imgRoute + "kanban-task-manager.webp",
 
     liveDemo: "https://kanban-task-manager-teal-psi.vercel.app/",
     github: "https://github.com/Karim-Galal/kanban-task-manager",
@@ -148,7 +150,7 @@ export const projects = [
       "Interactive interface",
     ],
 
-    image: "/projects/react-food-delivery.webp",
+    image: imgRoute + "react-food-delivery.webp",
 
     liveDemo: "https://react-food-del-nine.vercel.app/",
     github: "https://github.com/Karim-Galal/react_food_del",
@@ -161,9 +163,9 @@ export const projects = [
 
   {
     id: "laravel-api",
-    slug: "laravel-api",
+    slug: "laravel-invoices-api",
 
-    title: "Laravel API",
+    title: "Laravel Invoices API",
 
     shortDescription:
       "A Laravel REST API project for managing customers and invoices.",
@@ -187,7 +189,7 @@ export const projects = [
       "Validation",
     ],
 
-    image: "/projects/laravel-api.webp",
+    image: "/projects/laravel-api.png",
 
     liveDemo: null,
     github: "https://github.com/Karim-Galal/laravel_api",
