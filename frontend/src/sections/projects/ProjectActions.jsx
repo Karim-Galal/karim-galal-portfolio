@@ -1,11 +1,11 @@
-import ProjectDetailsButton from "./ProjectActions/ProjectDetailsButton";
+// import ProjectDetailsButton from "./ProjectActions/ProjectDetailsButton";
 import LiveDemoButton from "./ProjectActions/LiveDemoButton";
 import GithubButton from "./ProjectActions/GithubButton";
 
 function ProjectActions({ project }) {
   return (
     <div className="flex min-h-10 flex-wrap gap-2">
-      <ProjectDetailsButton project={project} />
+      {/* <ProjectDetailsButton project={project} /> */}
 
       {project.liveDemo && (
         <LiveDemoButton href={project.liveDemo} />

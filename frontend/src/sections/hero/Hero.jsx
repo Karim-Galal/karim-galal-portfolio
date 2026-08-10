@@ -4,6 +4,8 @@ import HeroBackground from "./HeroBackground";
 import HeroContent from "./HeroContent";
 import HeroTerminal from "./HeroTerminal";
 
+
+
 function Hero() {
   return (
     <section  id="home" className="relative overflow-hidden">

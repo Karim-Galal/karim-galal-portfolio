@@ -1,25 +1,9 @@
-import { FaGithub, FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
+import { socials } from "@/data/socials";
 
-const socialLinks = [
-  {
-    name: "WhatsApp",
-    href: "https://wa.me/201025136538",
-    icon: FaWhatsapp,
-    hoverClass: "text-green-500",
-  },
-  {
-    name: "Telegram",
-    href: "https://t.me/karim_gala",
-    icon: FaTelegramPlane,
-    hoverClass: "hover:text-sky-500",
-  },
-  {
-    name: "GitHub",
-    href: "https://github.com/karim-galal",
-    icon: FaGithub,
-    hoverClass: "hover:text-foreground",
-  },
-];
+
+const socialLinks = socials.filter((social) =>
+  ["whatsapp", "telegram", "github"].includes(social.id)
+);
 
 function HeroSocials() {
 

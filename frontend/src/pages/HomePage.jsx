@@ -2,6 +2,7 @@ import Hero from "@/sections/hero";
 import About from "@/sections/about";
 import Skills from "@/sections/skills";
 import Projects from "@/sections/projects";
+import Contact from "@/sections/contact";
 
 function HomePage() {
   return (
@@ -10,6 +11,7 @@ function HomePage() {
       <About/>
       <Skills/>
       <Projects/>
+      <Contact/>
     </div>
   );
 }
