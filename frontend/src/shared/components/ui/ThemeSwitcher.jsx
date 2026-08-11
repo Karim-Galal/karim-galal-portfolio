@@ -7,7 +7,7 @@ import {
   THEME_STORAGE_KEY,
 } from "@/app/config/themes";
 
-export default function ThemeSwitcher() {
+export default function ThemeSwitcher({ onClose }) {
   const [open, setOpen] = useState(false);
 
   const [theme, setTheme] = useState(() => {
@@ -47,7 +47,10 @@ export default function ThemeSwitcher() {
       <button
         title="Theme change"
         type="button"
-        onClick={() => setOpen((prev) => !prev)}
+        onClick={() => {
+          setOpen((prev) => !prev);
+          onClose?.();
+        }}
         className="flex items-center gap-2 rounded-lg border border-border bg-surface px-3 py-2 transition-all hover:border-primary hover:bg-surface-hover"
       >
         <HiMiniSwatch

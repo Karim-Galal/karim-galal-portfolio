@@ -1,17 +1,16 @@
 import { HiBars3, HiXMark } from "react-icons/hi2";
 import ThemeSwitcher from "@/shared/components/ui/ThemeSwitcher";
 
-function NavbarActions({ isOpen, onToggle }) {
+function NavbarActions({ isOpen, onToggle, onClose }) {
   return (
     <div className="flex items-center gap-2">
-      <ThemeSwitcher />
+      <ThemeSwitcher  onClose={onClose} />
 
       {/* Navigation toggle button */}
       <button
         type="button"
         onClick={onToggle}
         aria-label="Toggle navigation"
-        // className="relative flex size-10 items-center justify-center rounded-lg border border-border bg-surface transition-all hover:border-primary hover:bg-surface-hover md:hidden"
         className={`relative flex size-10 items-center justify-center rounded-lg border border-border bg-surface transition-all hover:border-primary hover:bg-surface-hover md:hidden${
           isOpen ? "border border-primary bg-surface-hover" : ""
         }`}
