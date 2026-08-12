@@ -21,10 +21,14 @@ function HeroTerminal() {
         ease: "easeOut",
       }}
       className="overflow-hidden rounded-2xl border border-border bg-surface shadow-lg"
+      // className="min-h-90 sm:min-h-105 lg:min-h-120 overflow-hidden rounded-2xl border border-border bg-surface shadow-lg"
     >
       <HeroTerminalHeader />
-
-      <HeroTerminalBody />
+      <div
+        className="min-h-105 md:min-h-auto"
+      >
+        <HeroTerminalBody />
+      </div>
     </motion.div>
   );
 }
