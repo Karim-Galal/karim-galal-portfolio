@@ -100,11 +100,40 @@
     name="twitter:image"
     content="https://karim-galal.vercel.app/og-image.png"
   />
-  <!-- robots -->
 
   <title>
     Karim Galal — Fullstack Laravel & React Developer
   </title>
+  <!-- structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://karim-galal.vercel.app/#website",
+        "name": "Karim Galal",
+        "url": "https://karim-galal.vercel.app/",
+        "about": {
+          "@id": "https://karim-galal.vercel.app/#person"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://karim-galal.vercel.app/#person",
+        "name": "Karim Galal",
+        "alternateName": "كريم جلال",
+        "jobTitle": "Fullstack Laravel & React Developer",
+        "description": "كريم جلال مبرمج Fullstack متخصص في Laravel وReact.",
+        "url": "https://karim-galal.vercel.app/",
+        "sameAs": [
+          "https://mostaql.com/u/karim_galal",
+          "https://github.com/Karim-Galal"
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
   <body>
     <div id="root"></div>
