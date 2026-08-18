@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://karim-galal.vercel.app/sitemap.xml
