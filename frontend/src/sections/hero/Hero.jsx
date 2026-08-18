@@ -12,22 +12,7 @@ function Hero() {
       <HeroBackground />
 
       <div
-        className="
-          relative mx-auto
-          flex min-h-[calc(100vh-4rem)]
-          max-w-7xl
-          flex-col
-          justify-center
-          gap-12
-          px-4
-          py-12
-          sm:px-6
-          lg:flex-row
-          lg:items-center
-          lg:gap-16
-          lg:px-8
-          lg:py-16
-        "
+        className="relative z-10 mx-auto flex max-w-7xl flex-col items-center justify-between gap-12 px-4 py-20 sm:px-6 lg:flex-row lg:gap-24 lg:px-8 lg:py-32"
       >
         {/* Hero content */}
         <motion.div

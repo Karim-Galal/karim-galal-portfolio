@@ -14,7 +14,7 @@ function HeroContent() {
       </h1>
 
       <h2 className="mt-4 text-2xl font-semibold leading-tight text-foreground-muted sm:text-3xl">
-        Full Stack Laravel & React Developer
+        FullStack Laravel & React Developer
       </h2>
 
       <p className="mx-auto my-6 max-w-xl text-base leading-7 text-foreground-muted sm:text-lg lg:mx-0">

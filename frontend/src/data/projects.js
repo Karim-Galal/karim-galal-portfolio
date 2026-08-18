@@ -45,7 +45,7 @@ export const projects = [
     id: "lara-react-survey",
     slug: "lara-react-survey",
 
-    title: "Lara React Survey",
+    title: "Laravel React Survey",
 
     shortDescription:
       "A fullstack survey application built with a Laravel API backend and React frontend.",
